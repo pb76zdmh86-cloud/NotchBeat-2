@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ru</string>
+	<key>CFBundleDisplayName</key>
+	<string>NotchBeat</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.3.0</string>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>NotchBeat читает название, обложку и состояние музыки в Spotify и отправляет команды воспроизведения по твоему нажатию.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>NotchBeat показывает события из выбранных тобой календарей и напоминает о начале. События не изменяются.</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>NotchBeat записывает выбранный экран и его звук, когда ты нажимаешь кнопку записи.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>NotchBeat записывает микрофон в выбранный файл только по твоему действию.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>NotchBeat показывает выбранные списки Напоминаний, добавляет задачи и отмечает выполнение по твоему действию.</string>
+</dict>
+</plist>

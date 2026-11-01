@@ -1,0 +1,21 @@
+NotchBeat 0.3.0 — 2026-10-14
+
+Performed in preparation environment:
+- Swift syntax parse: PASS
+- Objective-C syntax parse: PASS (nullability macros removed for parser)
+- Xcode project structure / source references: PASS
+- Info.plist, entitlements and shared scheme parsing: PASS
+- Asset catalog file references: PASS
+
+NOT performed (requires macOS with Xcode):
+- Native compilation and linker checks against Apple SDK
+- Running scripts/check-core.sh (Swift compiler unavailable here)
+- App launch, permissions, MediaRemote/Spotify integration
+- Window click-through, spring animations, full screen/Spaces
+- Actual recording, notification delivery, download and AirDrop completion
+
+TESTING.md lists manual scenarios. This package is source code, not a verified or notarized binary.
+
+2026-10-14 hotfix: RecordingModule private finalize renamed completeSaving to avoid NSObject method collision reported by native Xcode build. Native rebuild pending.
+
+0.3: hover response/target changes, visible weekly calendar events and EventKit reminders. Swift syntax, Xcode/project, plist/scheme/resource checks rerun successfully. Core and preferences migration tests provided but NOT executed (no native Swift compiler). Native responsiveness and Reminder/Calendar integration pending.

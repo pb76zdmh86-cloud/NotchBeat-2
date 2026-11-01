@@ -22,11 +22,17 @@ struct ActivityCandidate: Equatable { var id: ModuleID; var priority: Int }
 struct ActivitySelection: Equatable {
     var primary: [ModuleID]; var minimal: ModuleID?; var overflow: Int
     static func resolve(_ candidates: [ActivityCandidate], showReminders: Bool = true) -> ActivitySelection {
-        let visible = candidates.filter { showReminders || $0.id != .reminders }
-        let sorted = visible.sorted { $0.priority == $1.priority ? $0.id.rawValue < $1.id.rawValue : $0.priority > $1.priority }
+        let sorted = candidates.sorted { $0.priority == $1.priority ? $0.id.rawValue < $1.id.rawValue : $0.priority > $1.priority }
         var unique: [ActivityCandidate] = []
         for candidate in sorted where !unique.contains(where: { $0.id == candidate.id }) { unique.append(candidate) }
-        return ActivitySelection(primary: Array(unique.prefix(2).map(\.id)), minimal: unique.dropFirst(2).first?.id, overflow: max(0, unique.count - 3))
+        guard showReminders || unique.contains(where: { $0.id != .reminders }) else {
+            return ActivitySelection(primary: [], minimal: nil, overflow: 0)
+        }
+        // Keep the primary slots stable; IslandView hides reminders in place.
+        let minimal = unique.dropFirst(2).first?.id
+        return ActivitySelection(primary: Array(unique.prefix(2).map(\.id)),
+            minimal: minimal,
+            overflow: unique.dropFirst(3).filter { showReminders || $0.id != .reminders }.count)
     }
 }
 enum FocusPhase: String, Codable { case idle, focus, pausedFocus, awaitingBreak, rest, pausedRest, finished }

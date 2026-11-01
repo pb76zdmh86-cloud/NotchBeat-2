@@ -26,15 +26,17 @@ private struct BlurLayer: NSViewRepresentable {
                 .background(report("primary", physical: model.physical))
                 .position(x: x, y: size.height / 2)
             if model.mode == .compact, let minimal = model.module(model.selection.minimal) {
-                Button { model.openCenter(minimal.id) } label: {
+                Button { model.openCenter(hideReminders(minimal) ? nil : minimal.id) } label: {
                     HStack(spacing: 2) {
                         MinimalSlot(module: minimal).frame(width: 20, height: 20)
+                            .opacity(hideReminders(minimal) ? 0 : 1)
+                            .accessibilityHidden(hideReminders(minimal))
                         if model.selection.overflow > 0 { Text("+\(model.selection.overflow)").font(.system(size: 8, weight: .bold)) }
                     }.padding(7).background(.black, in: Capsule())
                 }.buttonStyle(.plain)
-                    .opacity(hideReminders(minimal) ? 0 : 1)
-                    .allowsHitTesting(!hideReminders(minimal))
-                    .accessibilityHidden(hideReminders(minimal))
+                    .opacity(hideReminders(minimal) && model.selection.overflow == 0 ? 0 : 1)
+                    .allowsHitTesting(!hideReminders(minimal) || model.selection.overflow > 0)
+                    .accessibilityHidden(hideReminders(minimal) && model.selection.overflow == 0)
                     .background(report("minimal", physical: false))
                     .position(x: x + (x + size.width / 2 + 46 > model.canvasSize.width ? -1 : 1) * (size.width / 2 + 25), y: min(size.height / 2, 22))
                     .transition(.scale(scale: 0.7).combined(with: .opacity))

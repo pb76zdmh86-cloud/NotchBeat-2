@@ -35,10 +35,19 @@ import Foundation
                "Showing reminders again must restore their activity")
         let others = [ActivityCandidate(id: .timer, priority: 80), ActivityCandidate(id: .music, priority: 70),
                       ActivityCandidate(id: .downloads, priority: 40), ActivityCandidate(id: .battery, priority: 20)]
-        assert(ActivitySelection.resolve(others + [reminder], showReminders: false) == ActivitySelection.resolve(others),
-               "Hidden reminders must not occupy a primary/minimal slot or inflate overflow")
-        assert(ActivitySelection.resolve([reminder, others[2]], showReminders: false).primary == [.downloads],
-               "Other activities must remain visible when reminders are hidden")
+        let mixed = ActivitySelection.resolve(others + [reminder], showReminders: false)
+        assert(mixed.primary == [.timer, .music] && mixed.minimal == .reminders && mixed.overflow == 2,
+               "Hiding a minimal reminder must not move other activities into its slot")
+        for priority in [10, 55, 100] {
+            let candidates = others + [ActivityCandidate(id: .reminders, priority: priority)]
+            let before = ActivitySelection.resolve(candidates)
+            let after = ActivitySelection.resolve(candidates, showReminders: false)
+            assert(after.primary == before.primary, "Primary positions and island width must stay unchanged")
+            assert(after.minimal == before.minimal, "Other activity counters must keep their side slot")
+            assert(after.overflow == before.overflow - (priority == 10 ? 1 : 0))
+        }
+        assert(ActivitySelection.resolve([reminder, others[2]], showReminders: false).primary == [.reminders, .downloads],
+               "The download must stay in its trailing slot while the reminder slot is hidden")
         var history = ActivityHistory()
         let activity = ModuleActivity(token: "track1", title: "Song", detail: "Artist")
         for offset in 0..<100 { history.observe(id: .music, activity: activity, at: base.addingTimeInterval(Double(offset))) }

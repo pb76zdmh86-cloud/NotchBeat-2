@@ -206,10 +206,14 @@ private enum SettingsPage: String, CaseIterable, Identifiable {
     var body: some View {
         Form {
             Section("Островок") {
-                Toggle("Показывать напоминания в островке", isOn: $preferences.value.showRemindersInIsland)
+                Toggle("Показывать счётчик задач в островке", isOn: $preferences.value.showRemindersInIsland)
+                Text("Показывает значок и количество оставшихся задач сверху. При выключении напоминания остаются подключёнными: список задач, добавление, отметки выполнения и системные оповещения продолжают работать.")
+                    .font(.caption).foregroundStyle(.secondary)
             }
             Section("Подключение") {
-                Button("Подключить системные Напоминания") { Task { await module.requestAccess() } }
+                Button(module.connectionActionTitle) { Task { await module.requestAccess() } }
+                    .disabled(module.requestingAccess)
+                if !module.granted { Text(module.status).font(.caption).foregroundStyle(.secondary) }
                 Text("При первом подключении выбраны все списки. Отметка выполнения и добавление изменяют системные Напоминания и синхронизируются через твой аккаунт.").font(.caption).foregroundStyle(.secondary)
             }
             Section("Выбранные списки") {

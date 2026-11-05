@@ -1,0 +1,23 @@
+{
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Media/SpotifyBridge.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.swiftdeps"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/AirDropModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.swiftdeps"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/BatteryModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.swiftdeps"
+  }
+}

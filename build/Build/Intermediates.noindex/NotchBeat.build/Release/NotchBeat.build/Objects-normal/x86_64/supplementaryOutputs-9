@@ -1,0 +1,23 @@
+{
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/MusicModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/MusicModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/MusicModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/MusicModule.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/MusicModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/MusicModule.swiftdeps"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/Notifications.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/Notifications.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/Notifications.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/Notifications.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/Notifications.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/Notifications.swiftdeps"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/RecordingModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/RecordingModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/RecordingModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/RecordingModule.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/RecordingModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/x86_64/RecordingModule.swiftdeps"
+  }
+}

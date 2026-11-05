@@ -1,0 +1,23 @@
+{
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/AppDelegate.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppDelegate.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppDelegate.swiftdeps"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/AppModel.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppModel.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppModel.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppModel.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppModel.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/AppModel.swiftdeps"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/TranslatorModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/TranslatorModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/TranslatorModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/TranslatorModule.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/TranslatorModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Debug/NotchBeat.build/Objects-normal/arm64/TranslatorModule.swiftdeps"
+  }
+}

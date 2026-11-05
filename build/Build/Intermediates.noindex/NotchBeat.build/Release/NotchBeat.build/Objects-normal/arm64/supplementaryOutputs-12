@@ -1,0 +1,23 @@
+{
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/RemindersModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.swiftdeps"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/TimerModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.swiftdeps"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Preferences.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.dia",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.swiftdeps"
+  }
+}

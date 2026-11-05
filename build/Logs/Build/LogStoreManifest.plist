@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>87792BBC-F62D-44B5-B6E2-D1AC7B9DF2D3</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>87792BBC-F62D-44B5-B6E2-D1AC7B9DF2D3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NotchBeat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NotchBeat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project NotchBeat with scheme NotchBeat and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>815586717.34622502</real>
+			<key>timeStoppedRecording</key>
+			<real>815586725.20863998</real>
+			<key>title</key>
+			<string>Building project NotchBeat with scheme NotchBeat and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>87792BBC-F62D-44B5-B6E2-D1AC7B9DF2D3</string>
+		</dict>
+		<key>B4ED5DD3-0E88-4CD3-8FBE-80965175DDF4</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B4ED5DD3-0E88-4CD3-8FBE-80965175DDF4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NotchBeat project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NotchBeat</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project NotchBeat with scheme NotchBeat and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>815587236.68695498</real>
+			<key>timeStoppedRecording</key>
+			<real>815587247.06593394</real>
+			<key>title</key>
+			<string>Building project NotchBeat with scheme NotchBeat and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>B4ED5DD3-0E88-4CD3-8FBE-80965175DDF4</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -31,6 +31,11 @@ import Foundation
         assert(migrated.value.hoverDelay == 30 && migrated.value.hoverPadding == 12)
         assert(migrated.value.showRemindersInIsland, "Existing users must keep seeing reminders by default")
         migrated.value.showRemindersInIsland = false
+        migrated.value.selectedReminderListIDs = ["connected-list"]
+        let hidden = PreferencesStore(defaults: defaults)
+        assert(!hidden.value.showRemindersInIsland)
+        assert(hidden.value.isEnabled(.reminders), "Hiding the task counter must keep the reminders module enabled after restart")
+        assert(hidden.value.selectedReminderListIDs == ["connected-list"], "Hiding the task counter must keep the connected lists")
         migrated.value.enabledModules.removeAll { $0 == "reminders" }
         let restored = PreferencesStore(defaults: defaults)
         assert(!restored.value.showRemindersInIsland, "Reminder visibility must survive a restart")

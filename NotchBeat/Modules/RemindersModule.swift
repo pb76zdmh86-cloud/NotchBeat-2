@@ -10,13 +10,26 @@ struct ReminderItem: Identifiable {
     private let store = EKEventStore()
     private let preferences: PreferencesStore
     private var observer: NSObjectProtocol?
+    private var activationObserver: NSObjectProtocol?
     private var clock: Timer?
     private var generation = 0
+    private var accessError: String?
+    private var accessSession = ReminderAccessSession()
     @Published private(set) var lists: [ReminderListChoice] = []
     @Published private(set) var items: [ReminderItem] = []
     @Published private(set) var granted = false
     @Published private(set) var loading = false
+    @Published private(set) var requestingAccess = false
     @Published private(set) var status = "Подключи системные Напоминания"
+    var connectionActionTitle: String {
+        if requestingAccess { return "Ожидание разрешения…" }
+        if granted { return "Обновить подключение" }
+        switch EKEventStore.authorizationStatus(for: .reminder) {
+        case .denied: return "Разрешить доступ в системных настройках"
+        case .fullAccess: return "Обновить подключение"
+        default: return "Подключить системные Напоминания"
+        }
+    }
     init(preferences: PreferencesStore) { self.preferences = preferences; super.init(id: .reminders) }
     override var accent: Color { .blue }
     var dueToday: [ReminderItem] {
@@ -37,25 +50,67 @@ struct ReminderItem: Identifiable {
         observer = NotificationCenter.default.addObserver(forName: .EKEventStoreChanged, object: store, queue: .main) { [weak self] _ in
             Task { @MainActor in self?.refresh() }
         }
+        activationObserver = NotificationCenter.default.addObserver(forName: NSApplication.didBecomeActiveNotification, object: nil, queue: .main) { [weak self] _ in
+            Task { @MainActor in
+                guard let self, !self.requestingAccess else { return }
+                self.store.reset()
+                self.refresh()
+            }
+        }
     }
     override func stop() {
         clock?.invalidate(); clock = nil; generation += 1; loading = false
         if let observer { NotificationCenter.default.removeObserver(observer) }; observer = nil
+        if let activationObserver { NotificationCenter.default.removeObserver(activationObserver) }; activationObserver = nil
     }
     func requestAccess() async {
+        guard !requestingAccess else { return }
+        let authorization = EKEventStore.authorizationStatus(for: .reminder)
+        if authorization == .denied {
+            refresh()
+            if let url = URL(string: "x-apple.systempreferences:com.apple.preference.security?Privacy_Reminders") { NSWorkspace.shared.open(url) }
+            return
+        }
+        if authorization == .restricted || authorization == .fullAccess { store.reset(); refresh(); return }
+        requestingAccess = true
+        accessError = nil
+        defer { requestingAccess = false; changed() }
         do {
-            granted = try await store.requestFullAccessToReminders()
-            if granted {
+            let allowed = try await store.requestFullAccessToReminders()
+            accessSession.completeRequest(granted: allowed)
+            if allowed {
                 store.reset()
                 refresh()
-            } else { status = "Доступ отклонён. Разреши Напоминания в системных настройках." }
-        } catch { status = "Не удалось подключить Напоминания: \(error.localizedDescription)" }
+            } else { refresh() }
+        } catch {
+            let message = "Не удалось подключить Напоминания: \(error.localizedDescription)"
+            accessError = message
+            status = message
+        }
         changed()
     }
     func refresh() {
         generation += 1; let current = generation
-        granted = EKEventStore.authorizationStatus(for: .reminder) == .fullAccess
-        guard granted else { items = []; lists = []; loading = false; status = "Подключи системные Напоминания"; changed(); return }
+        let authorization = EKEventStore.authorizationStatus(for: .reminder)
+        switch authorization {
+        case .fullAccess: accessSession.update(.fullAccess)
+        case .notDetermined: accessSession.update(.notDetermined)
+        case .denied: accessSession.update(.denied)
+        case .restricted: accessSession.update(.restricted)
+        default: accessSession.update(.unavailable)
+        }
+        // A successful request is authoritative while EventKit's status cache catches up.
+        granted = accessSession.granted
+        guard granted else {
+            items = []; lists = []; loading = false
+            switch authorization {
+            case .denied: status = "Доступ к Напоминаниям выключен в macOS. Разреши NotchBeat доступ в Системных настройках → Конфиденциальность и безопасность → Напоминания."
+            case .restricted: status = "Доступ к Напоминаниям ограничен системой или администратором."
+            default: status = accessError ?? (requestingAccess ? "Разреши доступ в системном диалоге macOS." : "Подключи системные Напоминания")
+            }
+            changed(); return
+        }
+        accessError = nil
         let available = store.calendars(for: .reminder)
         lists = available.map { ReminderListChoice(id: $0.calendarIdentifier, title: $0.title, writable: $0.allowsContentModifications) }
         if !preferences.value.reminderListsInitialized, !available.isEmpty {
@@ -72,7 +127,12 @@ struct ReminderItem: Identifiable {
             Task { @MainActor in
                 guard let self, self.generation == current else { return }
                 self.loading = false
-                guard let reminders else { self.status = "Не удалось прочитать списки. Повтори обновление."; self.changed(); return }
+                guard let reminders else {
+                    self.items = []
+                    self.accessSession.invalidateRequestGrant()
+                    self.status = "Не удалось прочитать списки. Повтори обновление."
+                    self.changed(); return
+                }
                 self.items = reminders.map { reminder in
                     var due: Date?
                     if let components = reminder.dueDateComponents {
@@ -139,7 +199,8 @@ struct ReminderItem: Identifiable {
         VStack(alignment: .leading, spacing: 13) {
             if !module.granted {
                 Text(module.status).font(.caption).foregroundStyle(.secondary)
-                ModuleButton(title: "Подключить Напоминания", symbol: "checklist", tint: .blue) { Task { await module.requestAccess() } }
+                ModuleButton(title: module.connectionActionTitle, symbol: "checklist", tint: .blue) { Task { await module.requestAccess() } }
+                    .disabled(module.requestingAccess)
             } else {
                 HStack { Text(module.status).font(.caption).foregroundStyle(.secondary); Spacer(); Button("Обновить") { module.refresh() } }
                 TextField("Новое напоминание", text: $title).textFieldStyle(.roundedBorder)

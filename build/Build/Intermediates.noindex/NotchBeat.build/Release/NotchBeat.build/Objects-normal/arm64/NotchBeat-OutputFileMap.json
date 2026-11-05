@@ -1,0 +1,269 @@
+{
+  "" : {
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/NotchBeat-primary.dia",
+    "emit-module-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/NotchBeat-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/NotchBeat-primary-emit-module.dia",
+    "pch" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/NotchBeat-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/NotchBeat-primary.swiftdeps"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/AppDelegate.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/AppModel.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppModel.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppModel.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppModel.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppModel.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppModel.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppModel.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppModel.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AppModel~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Core/IslandLogic.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandLogic.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandLogic.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandLogic.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandLogic.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandLogic.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandLogic.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandLogic.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandLogic~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Media/MediaService.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MediaService.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MediaService.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MediaService.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MediaService.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MediaService.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MediaService.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MediaService.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MediaService~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Media/Playback.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Playback.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Playback.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Playback.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Playback.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Playback.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Playback.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Playback.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Playback~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Media/SpotifyBridge.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SpotifyBridge~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/AirDropModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/AirDropModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/BatteryModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/BatteryModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/CalendarModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/CalendarModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/CalendarModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/CalendarModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/CalendarModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/CalendarModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/CalendarModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/CalendarModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/CalendarModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/DownloadsModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/DownloadsModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/DownloadsModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/DownloadsModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/DownloadsModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/DownloadsModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/DownloadsModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/DownloadsModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/DownloadsModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/IslandModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/MusicModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MusicModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MusicModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MusicModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MusicModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MusicModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MusicModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MusicModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/MusicModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/Notifications.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Notifications.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Notifications.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Notifications.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Notifications.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Notifications.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Notifications.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Notifications.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Notifications~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/RecordingModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RecordingModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RecordingModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RecordingModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RecordingModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RecordingModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RecordingModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RecordingModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RecordingModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/RemindersModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/RemindersModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/TimerModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TimerModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Modules/TranslatorModule.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TranslatorModule.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TranslatorModule.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TranslatorModule.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TranslatorModule.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TranslatorModule.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TranslatorModule.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TranslatorModule.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/TranslatorModule~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/Preferences.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/Preferences~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/ScreenSupport.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ScreenSupport.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ScreenSupport.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ScreenSupport.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ScreenSupport.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ScreenSupport.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ScreenSupport.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ScreenSupport.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ScreenSupport~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/UI/ArtworkViews.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ArtworkViews.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ArtworkViews.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ArtworkViews.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ArtworkViews.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ArtworkViews.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ArtworkViews.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ArtworkViews.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ArtworkViews~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/UI/IslandContour.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandContour.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandContour.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandContour.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandContour.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandContour.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandContour.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandContour.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandContour~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/UI/IslandView.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandView.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandView.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandView.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandView.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandView.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandView.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandView.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandView~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/UI/IslandWindowController.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandWindowController.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandWindowController.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandWindowController.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandWindowController.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandWindowController.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandWindowController.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandWindowController.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/IslandWindowController~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/UI/ModuleSlots.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ModuleSlots.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ModuleSlots.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ModuleSlots.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ModuleSlots.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ModuleSlots.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ModuleSlots.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ModuleSlots.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/ModuleSlots~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/NotchBeat/UI/SettingsView.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Intermediates.noindex/NotchBeat.build/Release/NotchBeat.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

@@ -17,6 +17,18 @@ enum ModuleID: String, Codable, CaseIterable, Identifiable {
     }
 }
 enum IslandMode: String { case collapsed, compact, expanded }
+enum ReminderAuthorization { case notDetermined, fullAccess, denied, restricted, unavailable }
+struct ReminderAccessSession {
+    private(set) var authorization: ReminderAuthorization = .notDetermined
+    private var requestGranted = false
+    var granted: Bool { authorization == .fullAccess || (authorization == .notDetermined && requestGranted) }
+    mutating func update(_ authorization: ReminderAuthorization) {
+        self.authorization = authorization
+        if authorization != .notDetermined { requestGranted = false }
+    }
+    mutating func completeRequest(granted: Bool) { requestGranted = granted }
+    mutating func invalidateRequestGrant() { requestGranted = false }
+}
 struct ModuleActivity: Equatable { var token: String; var title: String; var detail: String }
 struct ActivityCandidate: Equatable { var id: ModuleID; var priority: Int }
 struct ActivitySelection: Equatable {

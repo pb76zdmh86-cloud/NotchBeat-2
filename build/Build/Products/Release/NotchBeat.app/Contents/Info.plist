@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>25G83</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>ru</string>
+	<key>CFBundleDisplayName</key>
+	<string>NotchBeat</string>
+	<key>CFBundleExecutable</key>
+	<string>NotchBeat</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.alex.notchbeat</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>NotchBeat</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.3.0</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>3</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>26A425</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>27.0</string>
+	<key>DTSDKBuild</key>
+	<string>26A425</string>
+	<key>DTSDKName</key>
+	<string>macosx27.0</string>
+	<key>DTXcode</key>
+	<string>2700</string>
+	<key>DTXcodeBuild</key>
+	<string>27A266a</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>15.0</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>NotchBeat читает название, обложку и состояние музыки в Spotify и отправляет команды воспроизведения по твоему нажатию.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>NotchBeat показывает события из выбранных тобой календарей и напоминает о начале. События не изменяются.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>NotchBeat записывает микрофон в выбранный файл только по твоему действию.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>NotchBeat показывает выбранные списки Напоминаний, добавляет задачи и отмечает выполнение по твоему действию.</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>NotchBeat записывает выбранный экран и его звук, когда ты нажимаешь кнопку записи.</string>
+</dict>
+</plist>

@@ -1,0 +1,5 @@
+/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Products/Debug/NotchBeat.app
+/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Products/Debug/NotchBeat.app
+/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Products/Release/NotchBeat.app
+/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Products/Release/NotchBeat.app
+/Users/alexbelov/Downloads/проекты/NotchBeat 2/build/Build/Products/Release/NotchBeat.app
